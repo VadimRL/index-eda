@@ -84,3 +84,124 @@ body {
 	font-size: 8px;
 	line-height: 1.125;
 }
+
+.slider {
+}
+.slide {
+	padding: 75px 100px;
+	min-height: 400px;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+}
+.slide-summer {
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, 
+			 rgba(0, 0, 0, 0) 100%), url(../img/summer.png) center / cover no-repeat;
+}
+.slide-content {
+	max-width: 400px;
+}
+.slide-text-light {
+	background-color: #999;
+	color: #fff;
+}
+.slidae-title {
+	margin-top: 0;
+	margin-bottom: 15px;
+	font-size: 50px;
+	line-height: 1;
+	font-weight: 700;
+}
+.slide-text {
+	margin-bottom: 30px;
+	font-size: 16px;
+	line-height: 1.44;
+	font-weight: 700;
+}
+.button {
+	display: inline-block;
+	border-radius: 25px;
+	padding: 12px 50px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.64;
+}
+.button-primary {
+	color: #fff;
+	background-color: #F47322;
+}
+
+/* --------------------------------------- */
+/* promo */
+
+.promo {
+	padding: 50px 0;
+	margin: 0 -22px;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+.promo > * {
+	flex: 1 1 50%;
+	padding: 0 22px;
+}
+.card {
+	max-width: 570px;
+	min-height: 380px;
+	padding: 32px;
+	border-radius: 20px;
+	font-weight: 500;
+	line-height: 1.44;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	position: relative;
+}
+.card-text-light {
+	color: #fff;
+}
+.card-sweet-basket {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+				url(../img/promo/01.png) center / cover no-repeat;
+}
+.card-product-basket {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+				url(../img/promo/02.png) center / cover no-repeat;
+}
+.card-header {
+}
+.card-title {
+	margin-top: 0;
+	margin-bottom: 21px;
+	font-size: 24px;
+	line-height: 1;
+}
+.card-description {
+	max-width: 170px;
+	font-size: 16px;
+}
+.card-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.card-price {
+	margin-bottom: 8px;
+
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 1;
+}
+.card-delivery {
+	margin-bottom: 25px;
+
+	font-size: 16px;
+}
+.button-dafault {
+	color: #5F5F61;
+	background-color: #fff;
+	line-height: 1.44;
+}
